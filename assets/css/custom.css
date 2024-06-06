@@ -108,7 +108,7 @@ header img.logo {
 .cd-intro-content blockquote p {
 	display: inline;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 3rem;
 }
 
 blockquote:before {
@@ -130,7 +130,7 @@ blockquote:after {
 .cd-intro-content cite {
 	color: var(--org-gray1);
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 2rem;
 }
 
 .soundcloud-wrapper {
