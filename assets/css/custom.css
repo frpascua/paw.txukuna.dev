@@ -100,12 +100,12 @@ header img.logo {
 }
 
 .cd-intro-content blockquote {
-	color: var(--org-green1);
 	quotes: "\201C" "\201D" "\2018" "\2019";
 
 }
 
 .cd-intro-content blockquote p {
+	color: var(--org-green1);
 	display: inline;
 	font-weight: 700;
 	font-size: 1.6rem;
