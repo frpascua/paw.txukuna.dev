@@ -108,7 +108,7 @@ header img.logo {
 .cd-intro-content blockquote p {
 	display: inline;
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 1.6rem;
 }
 
 blockquote:before {
@@ -130,9 +130,19 @@ blockquote:after {
 .cd-intro-content cite {
 	color: var(--org-gray1);
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 
 .soundcloud-wrapper {
 	margin: 80px 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.cd-intro-content blockquote p {
+		font-size: 3rem;
+	}
+
+	.cd-intro-content cite {
+		font-size: 2rem;
+	}
 }
