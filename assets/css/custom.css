@@ -93,21 +93,44 @@ header img.logo {
 	}
 }
 
-.quote {
+.cd-intro-content .quote {
 	text-align: left;
 	line-height: 1.6em;
-	font-family: Montserrat, sans-serif;
-	font-weight: 600;
-	font-size: 22px;
 	margin: 10px 40px;
 }
 
-blockquote {
+.cd-intro-content blockquote {
 	color: var(--org-green1);
+	quotes: "\201C" "\201D" "\2018" "\2019";
+
 }
 
-cite {
+.cd-intro-content blockquote p {
+	display: inline;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+blockquote:after {
+	color: #ccc;
+	content: close-quote;
+	line-height: 0.1em;
+	margin-left: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.cd-intro-content cite {
 	color: var(--org-gray1);
+	font-weight: 600;
+	font-size: 1.2em;
 }
 
 .soundcloud-wrapper {
