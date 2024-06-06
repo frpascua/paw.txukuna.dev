@@ -1,6 +1,8 @@
 :root {
 	--org-primary-color: #CC0000;
 	--org-black1: #1e2022;
+	--org-green1: #00823b;
+	--org-gray1: #636363;
 }
 
 
@@ -32,7 +34,6 @@ header img.logo {
 	color: var(--org-black1);
 }
 
-/* HTML: <div class="loader"></div> */
 .loader {
 	width: 30px;
 	aspect-ratio: .75;
@@ -68,4 +69,46 @@ header img.logo {
 	100% {
 		background-size: 20% 50%, 20% 50%, 20% 50%
 	}
+}
+
+.fadeIn-4 {
+	animation: fadeIn 4s;
+}
+
+.fadeIn-8 {
+	animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.quote {
+	text-align: left;
+	line-height: 1.6em;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 10px 40px;
+}
+
+blockquote {
+	color: var(--org-green1);
+}
+
+cite {
+	color: var(--org-gray1);
+}
+
+.soundcloud-wrapper {
+	margin: 80px 0;
 }
