@@ -23,6 +23,10 @@ header img.logo {
 
 .cd-intro-content {
 	background-color: white;
+	background-image: url(../images/dustin.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 18vw auto;
 }
 
 .mask-2.cd-intro-content .content-wrapper::before {
